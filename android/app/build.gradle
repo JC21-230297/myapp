@@ -29,8 +29,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.myapp"
-        // Update minSdkVersion to 26 as required by the 'health' package
-        minSdkVersion = 26
+        // Update minSdkVersion to 34 as required by the 'health' package
+        minSdkVersion = 34
         targetSdk = flutter.targetSdkVersion
         versionCode = 1
         versionName = "1.0"
