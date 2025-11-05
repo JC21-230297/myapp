@@ -8,6 +8,6 @@ workflows:
       - flutter packages pub get
       - flutter analyze
       - flutter test
-      - flutter build ios --simulator --debug --no-codesign
+      - flutter build ios --debug --simulator
     artifacts:
       - build/ios/iphonesimulator/*.app
