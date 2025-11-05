@@ -60,13 +60,12 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'dummy',
-    appId: 'dummy',
-    messagingSenderId: 'dummy',
-    projectId: 'dummy',
-    storageBucket: 'dummy',
-    iosClientId: 'dummy',
-    iosBundleId: 'dummy',
+    apiKey: 'AIzaSyCqYTVxSge2LQ3oTh88z1i79vC2oX45QZU',
+    appId: '1:517306642279:ios:3872b998f7861b4a0cc9c2',
+    messagingSenderId: '517306642279',
+    projectId: 'studio-9248838149-aeed5',
+    storageBucket: 'studio-9248838149-aeed5.firebasestorage.app',
+    iosBundleId: 'com.example.myapp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
