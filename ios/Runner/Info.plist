@@ -46,13 +46,26 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 
-	<!-- Permissions for Health and Calendar -->
-	<key>NSMotionUsageDescription</key>
-	<string>歩数をカウントし、今日の歩行データを記録するためにモーションデータを利用します。これにより、歩数目標の達成度を追跡し、ガチャを引くためのインセンティブを提供します。</string>
+	<!-- Permissions for Calendars -->
 	<key>NSCalendarsUsageDescription</key>
 	<string>アプリ内で設定したイベントやタスクを、お使いのデバイスのカレンダーに自動で追加・同期するためにアクセスします。これにより、スケジュールの管理がより簡単になります。</string>
 	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
     <string>アプリ内で設定したイベントやタスクを、お使いのデバイスのカレンダーに自動で追加・同期するためにアクセスします。これにより、スケジュールの管理がより簡単になります。</string>
+
+	<!-- Permissions for HealthKit -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>歩数やアクティビティデータをヘルスケアアプリから読み取り、アプリ内での進捗追跡や目標達成のために利用します。データはアプリ内で表示・分析され、外部に共有されることはありません。</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>将来的に、本アプリで記録したワークアウトや健康データをヘルスケアアプリに書き込むためにこの許可が必要です。現バージョンでは書き込み機能はありません。</string>
+	<key>NSMotionUsageDescription</key>
+	<string>歩数をカウントし、今日の歩行データを記録するためにモーションデータを利用します。これにより、歩数目標の達成度を追跡し、ガチャを引くためのインセンティブを提供します。</string>
+
+	<!-- Permissions for Notifications -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
 
 </dict>
 </plist>
